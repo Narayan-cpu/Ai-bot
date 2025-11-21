@@ -18,7 +18,7 @@ export default function Home() {
     setMessages((prev) => [...prev, { from: "user", text: input }]);
 
     try {
-      const res = await fetch("https://your-backend.onrender.com/chat", {
+      const res = await fetch("https://ai-bot-1-wa91.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
