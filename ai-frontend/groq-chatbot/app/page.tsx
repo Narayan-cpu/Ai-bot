@@ -18,6 +18,7 @@ export default function Home() {
     setMessages((prev) => [...prev, { from: "user", text: input }]);
 
     try {
+      //https://ai-bot-1-wa91.onrender.com
       const res = await fetch("https://ai-bot-1-wa91.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
