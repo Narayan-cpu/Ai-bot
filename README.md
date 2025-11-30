@@ -1,2 +1,2 @@
 # Ai ChartBot
-It Works with the stable strong interner
+It Works with the stable strong internet
